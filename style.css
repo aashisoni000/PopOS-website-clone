@@ -1,0 +1,313 @@
+:root {
+    --font-family-sans: Fira Sans, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Nato Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --font-family-slab: Roboto Slab, serif;
+    --font-family-mono: Ubuntu Mono, Ubuntu Monospace, Menlo, Consolas, Roboto Mono, Noto Mono, Oxygen Mono, Liberation Mono, monospace;
+}
+
+body {
+    font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #554742;
+    cursor: auto;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ========= header logo ======== */
+
+.header-logo-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 150px;
+}
+
+
+@media (min-width: 801px) {
+    .header-logo-link {
+        background: 0 0;
+        border-bottom: 0;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        padding: 0;
+        width: auto;
+    }
+}
+
+
+/* ============ nav page section =========== */
+
+/* ============== main section ============== */
+
+.main-section img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+/* ========= features section ============= */
+/* ========= features section ============= */
+/* ========= features section ============= */
+
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  font-size: 1rem;
+}
+
+.feature-section {
+  padding: 5vw 4vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  gap: 3rem;
+}
+
+
+.text-content {
+  flex: 1 1 40ch;
+  padding: 1rem;
+  order: 1; 
+}
+
+.text-content h4 {
+  color: #777;
+  text-transform: uppercase;
+  font-size: clamp(0.75rem, 1vw, 0.9rem);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+}
+
+.text-content h2 {
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  margin-bottom: 1rem;
+}
+
+.text-content h3 {
+  font-size: clamp(1.2rem, 2.5vw, 1.75rem);
+  margin-bottom: 0.75rem;
+}
+
+.text-content p {
+  font-size: clamp(0.95rem, 1.2vw, 1.1rem);
+  margin-bottom: 1.5rem;
+  max-width: 60ch;
+}
+
+.text-content a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: clamp(0.85rem, 1vw, 1rem);
+}
+
+.text-content a:hover {
+  text-decoration: underline;
+}
+
+
+.image-content {
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 2; 
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .feature-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-content {
+    order: 1;
+  }
+
+  .text-content {
+    order: 2;
+  }
+
+  .text-content,
+  .image-content {
+    flex: 1 1 100%;
+  }
+}
+
+
+
+/* ========= other features section ============= */
+/* ========= other features section ============= */
+
+.other-features {
+  padding: 4rem 2rem;
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.other-features h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.1em;
+  color: #444;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  flex: 1 1 300px;
+  max-width: 350px;
+  text-align: center;
+}
+
+.feature-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.feature-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+  color: #3a2f2a;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #554742;
+  line-height: 1.5;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .features-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-card {
+    max-width: 100%;
+  }
+}
+
+
+
+/* ========= hardware section ============= */
+/* ========= hardware section ============= */
+/* ========= hardware section ============= */
+
+/* ======= Hardware Section ======= */
+.hardware-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.hardware-section .subtitle {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.hardware-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.05em;
+  color: #332b28;
+}
+
+.hardware-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.hardware-card {
+  background: #e6f7f7;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hardware-card img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.hardware-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+  color: #3a2f2a;
+}
+
+.hardware-card p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.shop-btn {
+  display: inline-block;
+  background: #ffb400;
+  color: #000;
+  font-weight: bold;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.shop-btn:hover {
+  background: #e09c00;
+}
+
+/* ======= Responsive Layouts ======= */
+@media (max-width: 1024px) {
+  .hardware-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .hardware-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hardware-card img {
+    width: 200px;
+  }
+}
