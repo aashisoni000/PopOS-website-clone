@@ -301,7 +301,6 @@ body {
   line-height: 36px;
   font-family: var(--font-family-slab);
     font-weight: 400;
-
 }
 
 .hardware-card p {
@@ -430,3 +429,83 @@ body {
     text-align: left;
   }
 }
+
+/* ========== potential section ========== */
+/* ========== potential section ========== */
+/* ========== potential section ========== */
+
+.potential-section{
+  background: #e6f7f7;
+
+}
+
+
+    .section {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .section h2 {
+      font-size: 28px;
+      letter-spacing: 3px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .section p {
+      max-width: 600px;
+      margin: 0 auto 25px;
+      font-size: 16px;
+      color: #444;
+      line-height: 1.5;
+    }
+
+    .download-btn {
+      display: inline-block;
+      background-color: #ffb400;
+      color: black;
+      padding: 12px 30px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 3px;
+      transition: background 0.3s;
+      margin-bottom: 40px;
+    }
+
+    .download-btn:hover {
+      background-color: #e0a200;
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+      flex-wrap: wrap;
+    }
+
+    .feature {
+      text-align: center;
+      width: 350px;
+    }
+
+    .feature img {
+      width: 350px;
+      margin-bottom: 10px;
+
+    }
+
+    .feature p {
+      font-size: 18px;
+      font-weight: 500;
+      color: #333;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .features {
+        flex-direction: column;
+        gap: 40px;
+      }
+    }
