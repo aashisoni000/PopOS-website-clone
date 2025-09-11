@@ -56,6 +56,23 @@ body {
     overflow: clip;
 }
 
+/* =========== main heading ============ */
+/* =========== main heading ============ */
+/* =========== main heading ============ */
+
+.main-heading {
+  font-size: 1.8rem;
+  margin-bottom: 2.5rem;
+  color: #574F4A;
+  text-align: center;
+  font-family: var(--font-family-sans);
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: 3.2px;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+
 
 /* ========= features section ============= */
 /* ========= features section ============= */
@@ -189,12 +206,7 @@ body {
   margin: auto;
 }
 
-.other-features h2 {
-  font-size: 1.8rem;
-  margin-bottom: 2.5rem;
-  letter-spacing: 0.1em;
-  color: #444;
-}
+
 
 .features-container {
   display: flex;
@@ -261,37 +273,35 @@ body {
   text-transform: uppercase;
 }
 
-.hardware-section h2 {
-  font-size: 2rem;
-  margin-bottom: 2.5rem;
-  letter-spacing: 0.05em;
-  color: #332b28;
-}
-
 .hardware-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .hardware-card {
   background: #e6f7f7;
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 2rem 1.5rem;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
 }
 
 .hardware-card img {
-  width: 150px;
+  width: 15rem;
   height: auto;
   margin-bottom: 1rem;
 }
 
 .hardware-card h3 {
-  font-size: 1.3rem;
-  margin-bottom: 0.75rem;
-  color: #3a2f2a;
+  margin-bottom: 2rem;
+  color: #554742;
+  font-size: 32px;
+  line-height: 36px;
+  font-family: var(--font-family-slab);
+    font-weight: 400;
+
 }
 
 .hardware-card p {
@@ -355,12 +365,12 @@ body {
   text-transform: uppercase;
 }
 
-.about-section h2 {
+/* .about-section h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
   color: #332b28;
   letter-spacing: 0.05em;
-}
+} */
 
 .about-container {
   display: flex;
