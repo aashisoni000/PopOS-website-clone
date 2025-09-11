@@ -436,6 +436,7 @@ body {
 
 .potential-section{
   background: #e6f7f7;
+  margin-bottom: 3rem;
 
 }
 
@@ -507,5 +508,126 @@ body {
       .features {
         flex-direction: column;
         gap: 40px;
+      }
+    }
+
+
+
+
+    footer {
+      background-color: #544a45;
+      color: #ddd;
+      padding: 40px 20px 20px;
+      text-align: center;
+    }
+
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 50px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+
+    .footer-column {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .footer-column a {
+      text-decoration: none;
+      color: #ddd;
+      font-size: 15px;
+      transition: color 0.3s;
+    }
+
+    .footer-subscribe {
+      max-width: 300px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .footer-subscribe p {
+      margin-bottom: 15px;
+      font-size: 15px;
+      line-height: 1.4;
+    }
+
+    .subscribe-btn {
+      display: inline-block;
+      background-color: #00c8d7;
+      color: #000;
+      padding: 10px 25px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      transition: background 0.3s;
+    }
+
+    .subscribe-btn:hover {
+      background-color: #00aebc;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+    }
+
+    .social-icons a {
+      color: #fff;
+      font-size: 30px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 70px;
+      height: 70px;
+      text-decoration: none;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .social-icons a:hover {
+      background-color: #fff;
+      color: #544a45;
+    }
+
+    .footer-bottom {
+      margin-top: 10px;
+      padding-top: 20px;
+      font-size: 13px;
+      color: #ccc;
+    }
+
+    .footer-bottom a {
+      color: #ffb400;
+      text-decoration: none;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .footer-links {
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+      }
+
+      .footer-column {
+        align-items: center;
       }
     }
