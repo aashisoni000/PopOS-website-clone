@@ -4,6 +4,11 @@
     --font-family-mono: Ubuntu Mono, Ubuntu Monospace, Menlo, Consolas, Roboto Mono, Noto Mono, Oxygen Mono, Liberation Mono, monospace;
 }
 
+html, body {
+  width: 100%;
+  overflow-x: hidden; 
+}
+
 body {
     font-family: "Fira Sans", Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -16,6 +21,159 @@ body {
     position: relative;
     -webkit-font-smoothing: antialiased;
 }
+/* s
+/* =========== navbar =========== */
+
+ /* header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ddd;
+      position: relative;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .logo span {
+      color: #666;
+      font-size: 12px;
+      display: block;
+    }
+
+    /* Hamburger */
+    /* .hamburger {
+      font-size: 24px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      display: block;
+    }
+
+    /* Cart */
+    /* .cart {
+      font-weight: bold;
+      display: none;
+    }
+
+    /* Desktop Links */
+    /* nav {
+      display: none;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+    }
+
+    /* Utilities (search, contact, etc) */
+    /* .utilities {
+      display: none;
+      gap: 15px;
+      font-size: 14px;
+    } */
+/* 
+    .utilities a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    /* Mobile Sidebar */
+    /* .sidebar {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: 260px;
+      height: 100%;
+      background: #eaeaea;
+      padding: 20px;
+      transition: 0.3s;
+      z-index: 1000;
+    } */
+
+    /* .sidebar.active {
+      left: 0;
+    }
+
+    .sidebar .close-btn {
+      font-size: 26px;
+      cursor: pointer;
+      display: block;
+      margin-bottom: 20px;
+    } */ 
+
+    /* .sidebar input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 20px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .sidebar ul li {
+      margin: 15px 0;
+    }
+
+    .sidebar ul li a {
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+    } */ */
+
+    /* Tablet */
+    /* @media (min-width: 600px) {
+      .cart {
+        display: block;
+      }
+    } */
+
+    /* Desktop */
+    /* @media (min-width: 1024px) {
+      .hamburger,
+      .sidebar {
+        display: none;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 40px;
+      }
+
+      .logo {
+        flex-grow: 0;
+      }
+
+      nav {
+        display: block;
+        margin-top: 10px;
+      }
+
+      .utilities {
+        display: flex;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+      } */
+    /* } */ 
 
 /* ========= header logo ======== */
 
@@ -54,6 +212,7 @@ body {
     border: 0;
     overflow-clip-margin: content-box;
     overflow: clip;
+    
 }
 
 /* =========== main heading ============ */
@@ -446,14 +605,6 @@ body {
       padding: 50px 20px;
     }
 
-    .section h2 {
-      font-size: 28px;
-      letter-spacing: 3px;
-      font-weight: bold;
-      margin-bottom: 15px;
-      color: #333;
-    }
-
     .section p {
       max-width: 600px;
       margin: 0 auto 25px;
@@ -498,9 +649,11 @@ body {
     }
 
     .feature p {
-      font-size: 18px;
-      font-weight: 500;
+      font-size: 30px;
+      font-weight: 400;
       color: #333;
+      font-family: var(--font-family-slab);
+      margin: 24px 0px;
     }
 
     /* Responsive */
@@ -511,6 +664,9 @@ body {
       }
     }
 
+/* ========== footer section ========== */
+/* ========== footer section ========== */
+/* ========== footer section ========== */
 
 
 
