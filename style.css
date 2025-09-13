@@ -64,7 +64,7 @@ body {
       font-family: var(--font-family-slab);
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
       .info{
         margin: 0px 16px;
       }
