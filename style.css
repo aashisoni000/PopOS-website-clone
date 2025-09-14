@@ -23,6 +23,108 @@ body {
     
 }
 
+/* ============ main section =============== */
+.main {
+      background: url("/assets/imgs/pop-hero-xl-night.jpg") no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .main-content {
+      max-width: 700px;
+      margin: 0 auto;
+      z-index: 2;
+      position: relative;
+    }
+
+    .main h1 {
+      font-weight: 700;
+      color: rgba(255, 255, 255, 1);
+      margin: 0;
+      text-align: center;
+      font-family: var(--font-family-slab);
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 48px;
+    }
+
+    .main p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .main-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .main-buttons a {
+      text-decoration: none;
+      padding: 12px 28px;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 5px;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .btn-download {
+      background: #00bcd4;
+      color: #000;
+    }
+
+    .btn-donate {
+      background: #ffb400;
+      color: #000;
+    }
+
+    .main-buttons a:hover {
+      transform: scale(1.05);
+    }
+
+    /* Responsive text adjustments */
+    @media (max-width: 768px) {
+      .main {
+        padding: 80px 15px;
+      }
+
+      .main h1 {
+        font-size: 2.2rem;
+      }
+
+      .main p {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .main {
+        padding: 60px 10px;
+      }
+
+      .main h1 {
+        font-size: 1.8rem;
+      }
+
+      .main p {
+        font-size: 0.95rem;
+      }
+
+      .main-buttons {
+        flex-direction: column;
+      }
+
+      .main-buttons a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
 /* =========== info section ============= */
 /* =========== info section ============= */
 /* =========== info section ============= */
