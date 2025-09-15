@@ -460,6 +460,7 @@ header {
   letter-spacing: 3.2px;
   line-height: 42px;
   text-transform: uppercase;
+  margin-bottom: 2rem;
 }
 
 
@@ -839,6 +840,126 @@ header {
   .hardware-card img {
     width: 200px;
   }
+}
+
+/* =========== testimonial ============ */
+
+/* Basic reset */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; background: #fff; }
+
+/* Slider wrapper (full width, fixed height like your screenshot) */
+.testimonial-slider {
+  position: relative;
+  width: 100%;
+  height: 500px;             /* change this to adjust slider height */
+  overflow: hidden;
+  background: #072033;       /* fallback while images load */
+}
+
+
+.slides {
+  display: flex;
+  height: 100%;
+  transition: transform 0.6s ease-in-out;
+  will-change: transform;
+}
+
+
+.slide {
+  flex: 0 0 100%;
+  height: 100%;
+  background-size: cover;     
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+.overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  max-width: 1100px;
+  background: rgba(4, 38, 62, 0.68); 
+  color: #fff;
+  padding: 26px 40px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.overlay h2 {
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.overlay p {
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #f2f2f2e0;    
+  border: none;
+  border-radius: 2px;      
+  padding: 62px 18px;     
+  font-size: 44px;        
+  color: #646464;            
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  z-index: 2;
+  font-weight: 200;
+
+}
+
+.arrow.next {
+  right: 0px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 18px 0 34px;
+}
+
+.dots .dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #555;  
+  background: transparent;  
+  cursor: pointer;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.dots .dot.active {
+  background: #555;   
+  border-color: #555;
+}
+
+/* Responsive tweaks */
+@media (max-width: 900px) {
+  .overlay { width: 80%; padding: 18px 22px; }
+  .overlay h2 { font-size: 20px; }
+  .overlay p { font-size: 14px; }
+  .arrow { width: 40px; height: 40px; font-size: 26px; }
+}
+
+@media (max-width: 480px) {
+  .testimonial-slider { height: 360px; }
+  .overlay { width: 90%; padding: 14px 16px; }
+  .overlay h2 { font-size: 18px; }
+  .overlay p { font-size: 13px; }
 }
 
 
