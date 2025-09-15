@@ -452,7 +452,6 @@ header {
 
 .main-heading {
   font-size: 1.8rem;
-  margin-bottom: 2.5rem;
   color: #574F4A;
   text-align: center;
   font-family: var(--font-family-sans);
@@ -847,8 +846,6 @@ header {
 /* ========= about section =========== */
 /* ========= about section =========== */
 
-
-
 .about-section {
   text-align: center;
   padding: 4rem 2rem;
@@ -860,16 +857,8 @@ header {
   font-size: 0.9rem;
   font-weight: bold;
   color: #5a4a3d;
-  margin-bottom: 0.5rem;
   text-transform: uppercase;
 }
-
-/* .about-section h2 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  color: #332b28;
-  letter-spacing: 0.05em;
-} */
 
 .about-container {
   display: flex;
@@ -890,34 +879,34 @@ header {
 }
 
 .about-text h3 {
-  font-size: 1.6rem;
+  font-size: 32px;
+  line-height: 40px;
   margin-bottom: 1rem;
-  color: #3a2f2a;
+  font-weight: 400;
+  color: #574F4A;
+  font-family: var(--font-family-slab);
+  
 }
 
 .about-text p {
-  font-size: 1rem;
+  font-size: 18px;
   line-height: 1.6;
   color: #444;
   margin-bottom: 1.5rem;
+  font-family: var(--font-family-sans);
+  font-weight: 500;
+
 }
 
 .mission-link {
-  font-weight: bold;
-  font-size: 0.95rem;
-  text-decoration: none;
-  color: #332b28;
-  border-bottom: 1px solid #332b28;
+  font-size: 16px;
+  color: #574F4A;
   padding-bottom: 2px;
   transition: color 0.3s ease, border-color 0.3s ease;
+  font-family: var(--font-family-slab);
+  font-weight: 400;
+
 }
-
-.mission-link:hover {
-  color: #e09c00;
-  border-color: #e09c00;
-}
-
-
 
 @media (max-width: 900px) {
   .about-container {
