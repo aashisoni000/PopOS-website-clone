@@ -947,17 +947,11 @@ nav ul li a {
 
 /* Responsive tweaks */
 @media (max-width: 900px) {
-  .overlay { width: 80%; padding: 18px 22px; }
-  .overlay h2 { font-size: 20px; }
-  .overlay p { font-size: 14px; }
   .arrow { width: 40px; height: 40px; font-size: 26px; }
 }
 
 @media (max-width: 480px) {
   .testimonial-slider { height: 360px; }
-  .overlay { width: 90%; padding: 14px 16px; }
-  .overlay h2 { font-size: 18px; }
-  .overlay p { font-size: 13px; }
 }
 
 
