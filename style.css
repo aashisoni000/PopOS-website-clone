@@ -192,11 +192,14 @@ body {
       width: 100%;
       height: 100%;
     }
+
+/* =========== navbar =========== */
+/* =========== navbar =========== */
 /* =========== navbar =========== */
 
 header {
   display: flex;
-  justify-content: space-between;  /* instead of center */
+  justify-content: space-between;  
   align-items: center;
   padding: 10px 20px;
   position: relative;
@@ -210,7 +213,6 @@ header {
     text-decoration: none;
     font-family: var(--font-family-sans);
     font-size: 16px;
-
 }
 
 .logo {
@@ -221,22 +223,16 @@ header {
 }
 
 .cart {
-  display: none;  /* hidden on phone */
+  display: none;  
 }
 
-
-    .logo {
-  z-index: 2;                
-}
-
-
-    .logo img {
+.logo img {
   height: 30px;
   display: block;
   margin: 0 auto;  
 }
 
-    .hamburger {
+.hamburger {
       font-size: 24px;
       cursor: pointer;
       background: none;
@@ -244,29 +240,30 @@ header {
       display: block;
     }
 
-    .cart {
+.cart {
       font-weight: bold;
       font-size: 14px;
     }
 
-    .utilities {
+.utilities {
       display: none;
       gap: 15px;
       font-size: 14px;
+        top: 60px; 
     }
 
-    .utilities a {
+.utilities a {
       text-decoration: none;
       color: #574F4A;
     }
 
     
-    nav {
+nav {
       display: none;
       margin-bottom: 38px;
     }
 
-    nav ul {
+nav ul {
       list-style: none;
       margin: 0;
       padding: 0;
@@ -275,7 +272,7 @@ header {
       justify-content: center;
     }
 
-    nav ul li a {
+nav ul li a {
       text-decoration: none;
       color: #574F4A;
       font-size: 16px;
@@ -384,6 +381,7 @@ header {
     top: 10px;
     left: 50%;
     transform: translateX(-50%);  
+
   }
 
   nav {
@@ -396,6 +394,7 @@ header {
     position: absolute;
     top: 10px;
     right: 20px;
+
   }
 
   .hamburger,
@@ -711,8 +710,9 @@ header {
 .features-container {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 5rem;
   flex-wrap: wrap;
+  margin-top: 3rem;
 }
 
 .feature-card {
@@ -728,18 +728,23 @@ header {
 }
 
 .feature-card h3 {
-  font-size: 1.3rem;
+  font-size: 2rem;
   margin-bottom: 0.75rem;
-  color: #3a2f2a;
+  color: #574F4A;
+  font-family: var(--font-family-slab);
+  font-weight: 400;
+
 }
 
 .feature-card p {
   font-size: 1rem;
   color: #554742;
-  line-height: 1.5;
+  line-height: 2;
+  font-family: var(--font-family-sans);
+  text-align: left;
+
 }
 
-/* Mobile responsiveness */
 @media (max-width: 768px) {
   .features-container {
     flex-direction: column;
