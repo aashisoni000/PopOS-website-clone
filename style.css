@@ -24,6 +24,11 @@ body {
 }
 
 /* ============ main section =============== */
+.meet{
+  padding-top: 2rem;
+
+}
+
 .main {
       background: url("/assets/imgs/pop-hero-xl-night.jpg") no-repeat center center/cover;
       color: white;
@@ -41,27 +46,33 @@ body {
     }
 
     .main h1 {
-      font-weight: 700;
-      color: rgba(255, 255, 255, 1);
-      margin: 0;
-      text-align: center;
-      font-family: var(--font-family-slab);
-    font-size: 55px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    text-align: left;
+    font-family: var(--font-family-slab);
+    font-size: 4rem;
     font-weight: 700;
     line-height: 48px;
+    padding-bottom: 20px;
     }
 
     .main p {
-      font-size: 1.2rem;
+      text-align: left;
+      font-size: 1.5rem;
       margin-bottom: 30px;
       line-height: 1.6;
+      font-family: var(--font-family-slab);
+      font-weight: 200;
+      padding-right: 4rem;
     }
 
     .main-buttons {
+      text-align: left;
       display: flex;
       flex-wrap: wrap;
       gap: 15px;
-      justify-content: center;
+      justify-content: left;
     }
 
     .main-buttons a {
@@ -71,6 +82,8 @@ body {
       font-weight: 600;
       border-radius: 5px;
       transition: transform 0.2s ease-in-out;
+      font-family: var(--font-family-slab);
+      font-weight: 200;
     }
 
     .btn-download {
@@ -87,8 +100,6 @@ body {
       background: #ffc94c;;
     }
 
-
-    /* Responsive text adjustments */
     @media (max-width: 768px) {
       .main {
         padding: 80px 15px;
@@ -228,7 +239,7 @@ header {
 }
 
 .logo img {
-  height: 30px;
+  height: 45px;
   display: block;
   margin: 0 auto;  
 }
@@ -262,6 +273,7 @@ header {
 nav {
       display: none;
       margin-bottom: 38px;
+      padding-top: 20px;
     }
 
 nav ul {
