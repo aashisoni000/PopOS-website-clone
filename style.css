@@ -25,7 +25,7 @@ body {
 
 /* ============ main section =============== */
 .meet{
-  padding-top: 2rem;
+  padding-top: 3rem;
 
 }
 
@@ -295,73 +295,75 @@ nav ul li a {
     padding: 12px 18px 18px;
     }
 
-    
-    .overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: #eaeaea;
-      z-index: 2000;
-      display: none;
-      flex-direction: column;
-    }
+    /* Fullscreen overlay menu */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f5f5f5;   /* light gray like your screenshot */
+  z-index: 2000;
+  display: none;
+  flex-direction: column;
+}
 
-    .overlay.active {
-      display: flex;
-    }
+.overlay.active {
+  display: flex;
+}
 
-    .overlay-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 15px 20px;
-      border-bottom: 1px solid #ccc;
-      background: white;
-    }
+.overlay-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ccc;
+  background: white;
+}
 
-    .overlay-header img {
-      height: 30px;
-    }
+.overlay-header img {
+  height: 30px;
+}
 
-    .overlay-header .close-btn {
-      font-size: 26px;
-      cursor: pointer;
-    }
+.overlay-header .close-btn {
+  font-size: 26px;
+  cursor: pointer;
+}
 
-    .overlay-header .cart {
-      font-weight: bold;
-    }
+.overlay-header .cart {
+  font-weight: bold;
+}
 
-    .overlay-content {
-      padding: 20px;
-      flex: 1;
-      overflow-y: auto;
-    }
+.overlay-content {
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+}
 
-    .overlay-content input {
-      width: 100%;
-      padding: 8px;
-      margin-bottom: 20px;
-      border: 1px solid #aaa;
-      border-radius: 4px;
-    }
+.overlay-content input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 
-    .overlay-content ul {
-      list-style: none;
-      padding: 0;
-    }
+.overlay-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-    .overlay-content ul li {
-      margin: 15px 0;
-    }
+.overlay-content ul li {
+  margin: 15px 0;
+  font-size: 16px;
+}
 
-    .overlay-content ul li a {
-      text-decoration: none;
-      color: #333;
-      font-size: 16px;
-    }
+.overlay-content ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
 
     hr {
       margin: 20px 0;
@@ -898,35 +900,6 @@ nav ul li a {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-}
-
-
-.overlay {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 60%;
-  max-width: 1100px;
-  background: rgba(4, 38, 62, 0.68); 
-  color: #fff;
-  padding: 26px 40px;
-  border-radius: 6px;
-  text-align: center;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
-}
-
-.overlay h2 {
-  margin-bottom: 12px;
-  font-weight: 600;
-  font-size: 28px;
-  letter-spacing: 1px;
-}
-
-.overlay p {
-  font-size: 16px;
-  line-height: 1.6;
-  opacity: 0.95;
 }
 
 .arrow {
