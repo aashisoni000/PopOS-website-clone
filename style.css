@@ -83,9 +83,10 @@ body {
       color: #000;
     }
 
-    .main-buttons a:hover {
-      transform: scale(1.05);
+    .btn-donate :hover{
+      background: #ffc94c;;
     }
+
 
     /* Responsive text adjustments */
     @media (max-width: 768px) {

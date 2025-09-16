@@ -1,15 +1,33 @@
+:root {
+    --font-family-sans: Fira Sans, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Nato Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --font-family-slab: Roboto Slab, serif;
+    --font-family-mono: Ubuntu Mono, Ubuntu Monospace, Menlo, Consolas, Roboto Mono, Noto Mono, Oxygen Mono, Liberation Mono, monospace;
+}
+
 body {
-    /* Set the entire page background to white */
     background-color: #ffffff;
-    font-family: 'Roboto', sans-serif;
     margin: 0;
-    /* Use a single padding for the body to create outer margins */
     padding: 40px 20px;
+}
+/* =========== main heading ============ */
+/* =========== main heading ============ */
+/* =========== main heading ============ */
+
+.main-heading {
+  font-size: 1.8rem;
+  color: #574F4A;
+  text-align: center;
+  font-family: var(--font-family-sans);
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: 3.2px;
+  line-height: 42px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
 }
 
 .container {
     width: 100%;
-    /* Keep the max-width to center the content */
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -20,19 +38,22 @@ header {
 }
 
 header h1 {
-    font-family: 'Georgia', serif;
-    font-size: 2.8em;
+    font-size: 4em;
     color: #4a4a4a;
     margin-bottom: 15px;
-    font-weight: 700;
+    font-weight: 600;
+    font-family: var(--font-family-slab);
 }
 
 header p {
-    font-size: 1.1em;
+    font-size: 1.5em;
     color: #666666;
-    line-height: 1.6;
+    line-height: 1.2;
     max-width: 600px;
     margin: 0 auto;
+    font-family: var(--font-family-sans);
+    text-align: left;
+
 }
 
 .product-section {
@@ -62,26 +83,33 @@ header p {
 }
 
 .product-details h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.2em;
-    color: #4a4a4a;
-    margin-bottom: 5px;
-    letter-spacing: 1px;
-    font-weight: 700;
+
+  text-align: left;
+  color: #574F4A;
+  font-family: var(--font-family-sans);
+  font-size: 2.3rem;
+  font-weight: 500;
+  letter-spacing: 3.2px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
 }
 
 .product-details h3 {
-    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
-    color: #777777;
+    color: #535353;
     margin-bottom: 20px;
-    font-weight: 400;
+    font-weight: 700;
+    font-family: var(--font-family-sans);
+
 }
 
 .product-details p {
     font-size: 1em;
     color: #555555;
     line-height: 1.6;
+    font-weight: 500;
+    font-family: var(--font-family-sans);
 }
 
 /* ---------------------------------- */
