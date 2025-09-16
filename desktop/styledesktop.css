@@ -9,6 +9,7 @@ body {
     margin: 0;
     padding: 40px 20px;
 }
+
 /* =========== main heading ============ */
 /* =========== main heading ============ */
 /* =========== main heading ============ */
@@ -83,7 +84,6 @@ header p {
 }
 
 .product-details h2 {
-
   text-align: left;
   color: #574F4A;
   font-family: var(--font-family-sans);
@@ -112,45 +112,40 @@ header p {
     font-family: var(--font-family-sans);
 }
 
-/* ---------------------------------- */
-/* Product Grid Section CSS      */
-/* ---------------------------------- */
-
 .product-grid {
     display: grid;
-    /* This will automatically wrap the cards */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 25px;
-    width: 100%;
-    margin-top: 80px; /* Add space between the intro section and the cards */
+    width: 70%;
+    margin-top: 80px;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .product-card {
-    background-color: #ffffff;
+    background-color: #f5f5f5;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     overflow: hidden;
     display: flex;
     flex-direction: column;
     padding: 25px;
     position: relative;
     transition: transform 0.2s ease-in-out;
+
 }
 
-.product-card:hover {
-    transform: translateY(-5px);
-}
 
 .ready-to-ship {
     position: absolute;
     top: 15px;
     right: 15px;
-    background-color: #ffcc00;
+    background-color: #ffdf5d;
     color: #333;
-    padding: 5px 10px;
+    padding: 7px 15px;
     border-radius: 5px;
-    font-weight: 500;
-    font-size: 0.85em;
+    font-weight: 800;
+    font-size: 1.2em;
     z-index: 10;
 }
 
@@ -177,15 +172,17 @@ header p {
 }
 
 .product-name {
-    font-size: 1.6em;
+    font-size: 1.8em;
     font-weight: 500;
-    color: #333;
+    color: #554755;
     margin-bottom: 15px;
+    font-family: var(--font-family-sans);
 }
 
 .product-name .product-type {
     font-weight: 400;
-    color: #555;
+    color: #8D817A;
+    font-family: var(--font-family-sans);
 }
 
 .specs-list {
@@ -193,8 +190,9 @@ header p {
     padding: 0;
     margin: 0 0 20px 0;
     font-size: 0.95em;
-    color: #555;
+    color: #554755;
     flex-grow: 1;
+    font-family: var(--font-family-sans);
 }
 
 .specs-list li {
@@ -204,9 +202,10 @@ header p {
 
 .price {
     font-size: 1.8em;
-    font-weight: 700;
+    font-weight: 300;
     color: #333;
     margin-bottom: 15px;
+    font-family: var(--font-family-sans);
 }
 
 .klarna-info {
@@ -214,42 +213,41 @@ header p {
     color: #666;
     line-height: 1.4;
     margin-bottom: 25px;
+    font-family: var(--font-family-sans);
 }
 
 .klarna-price {
     font-weight: 700;
     color: #333;
+    font-family: var(--font-family-sans);
 }
 
 .klarna-logo {
     vertical-align: middle;
-    height: 1.2em;
+    height: 1.8em;
     margin-left: 5px;
 }
 
 .learn-more {
-    color: #007bff;
-    text-decoration: none;
+    color: #f59a24;
     margin-left: 5px;
     font-weight: 500;
-}
-
-.learn-more:hover {
-    text-decoration: underline;
+    font-family: var(--font-family-sans);
 }
 
 .buy-button {
-    background-color: #ffb700;
+    background-color: #f7b40b;
     color: #333;
     border: none;
     border-radius: 5px;
     padding: 12px 20px;
-    font-size: 1.1em;
-    font-weight: 700;
+    font-size: 1.2em;
+    font-weight: 500;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
     width: 100%;
     margin-top: auto;
+    font-family: var(--font-family-slab);
 }
 
 .buy-button:hover {
