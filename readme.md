@@ -9,6 +9,8 @@ Link to the website : https://pop-os-website-clone.vercel.app/
 <img width="1132" height="689" alt="image" src="https://github.com/user-attachments/assets/7991bd38-cd3b-4edb-baa6-8088403c45ce" />
 <img width="1904" height="954" alt="image" src="https://github.com/user-attachments/assets/a5d6d35e-0617-44fc-9b1b-3b768375f6c5" />
 
+Apart from the main homepage clone, I also added an extra page : https://pop-os-website-clone.vercel.app/desktop/desktop.html
+
 
 ## Features
 
