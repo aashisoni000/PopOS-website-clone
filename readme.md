@@ -3,7 +3,11 @@
 
 This project is a frontend clone of the Pop!_OS website. It is built using HTML, CSS, and JavaScript and closely replicates the original site’s layout, design, and responsiveness.
 
+Link to the website : https://pop-os-website-clone.vercel.app/
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/03885af1-1161-4245-b5ab-18d68194eee7" />
+<img width="1132" height="689" alt="image" src="https://github.com/user-attachments/assets/7991bd38-cd3b-4edb-baa6-8088403c45ce" />
+<img width="1904" height="954" alt="image" src="https://github.com/user-attachments/assets/a5d6d35e-0617-44fc-9b1b-3b768375f6c5" />
 
 
 ## Features
